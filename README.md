@@ -23,19 +23,13 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Instruction To Install 
 
-1] git clone https://github.com/madhurarailkar/shopping.git
+1] composer install
 
-2] git fetch --all
+2] run php artisan migrate
 
-3] git checkout master
+3] php artisan db:seed --class=UserSeeder
 
-4] composer install
-
-5] run php artisan migrate
-
-6] php artisan db:seed --class=UserSeeder
-
-7] Admin user name and password 
+4] Admin user name and password 
    admin@gmail.com/admin123
 ## Learning Laravel
 
